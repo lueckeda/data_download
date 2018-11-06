@@ -102,11 +102,11 @@ if [[ $ALL == 'y' || $ELECTRO == 'y' || $TELEOST == 'y' || $SALT == 'y' ]]; then
 fi
 
 if [[ $ALL == 'y' || $NONELECTRO == 'y' || $TELEOST == 'y' || $SALT == 'y' ]]; then
-    get_data Holostei Locul
+    echo "non-electric saltwater teleost not in sample"
 fi
 
-if [[ $ALL == 'y' || $NONELECTRO == 'y' || $TELEOST == 'y' || $FRESH == 'y' ]]; then
-    echo nothing
+if [[ $ALL == 'y' || $NONELECTRO == 'y' || $NONTELEOST == 'y' || $FRESH == 'y' ]]; then
+    get_data Holostei Locul
 fi
 
 if [[ $ALL == 'y' || $ELECTRO == 'y' || $NONTELEOST == 'y' || $SALT == 'y' ]]; then
