@@ -102,7 +102,7 @@ if [[ $ALL == 'y' || $ELECTRO == 'y' || $TELEOST == 'y' || $SALT == 'y' ]]; then
 fi
 
 if [[ $ALL == 'y' || $NONELECTRO == 'y' || $TELEOST == 'y' || $SALT == 'y' ]]; then
-    echo "non-electric saltwater teleost not in sample"
+    get_data Labridae Smelo
 fi
 
 if [[ $ALL == 'y' || $NONELECTRO == 'y' || $NONTELEOST == 'y' || $FRESH == 'y' ]]; then
