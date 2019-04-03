@@ -74,7 +74,7 @@ if [[ $TESTING == 'y' ]]; then
     get_data Amniota Hsapi
 fi
 
-if [[ $ALLGENOME == 'y' ]]; then
+if [[ $ALL == 'y' || $ALLGENOME == 'y' ]]; then
     get_data Mormyridae Pking
     get_data Cyprinidae Dreri
     get_data Holostei Locul
@@ -84,32 +84,38 @@ if [[ $ALLGENOME == 'y' ]]; then
     get_data Rajiform Lerin
     get_data Holocephali Cmili
     get_data Amniota Hsapi
+	get_data Labridae Smelo
 fi
 
-if [[ $ALL == 'y' || $ELECTRO == 'y' || $TELEOST == 'y' || $FRESH == 'y' ]]; then
+if [[ $ALL = 'y' ]]; then
+	get_data Astroscopus Astar
+	
+fi
+
+if [[ $ELECTRO == 'y' || $TELEOST == 'y' || $FRESH == 'y' ]]; then
     get_data Mormyridae Pking
     get_data Gymnotiform Eelec
 fi
 
-if [[ $ALL == 'y' || $NONELECTRO == 'y' || $TELEOST == 'y' || $FRESH == 'y' ]]; then
+if [[ $NONELECTRO == 'y' || $TELEOST == 'y' || $FRESH == 'y' ]]; then
     get_data Cyprinidae Dreri
     get_data Osteoglossidae Sform
     get_data Siluriform Ipunc
 fi
 
-if [[ $ALL == 'y' || $ELECTRO == 'y' || $TELEOST == 'y' || $SALT == 'y' ]]; then
+if [[ $ELECTRO == 'y' || $TELEOST == 'y' || $SALT == 'y' ]]; then
     get_data Astroscopus Astar
 fi
 
-if [[ $ALL == 'y' || $NONELECTRO == 'y' || $TELEOST == 'y' || $SALT == 'y' ]]; then
+if [[ $NONELECTRO == 'y' || $TELEOST == 'y' || $SALT == 'y' ]]; then
     get_data Labridae Smelo
 fi
 
-if [[ $ALL == 'y' || $NONELECTRO == 'y' || $NONTELEOST == 'y' || $FRESH == 'y' ]]; then
+if [[ $NONELECTRO == 'y' || $NONTELEOST == 'y' || $FRESH == 'y' ]]; then
     get_data Holostei Locul
 fi
 
-if [[ $ALL == 'y' || $ELECTRO == 'y' || $NONTELEOST == 'y' || $SALT == 'y' ]]; then
+if [[ $ELECTRO == 'y' || $NONTELEOST == 'y' || $SALT == 'y' ]]; then
     get_data Rajiform Lerin
 fi
 
