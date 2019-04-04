@@ -67,6 +67,9 @@ gunzip -c /mnt/research/efish/lab_data/assemblies/transcriptomes/gymnotiformes/e
 # Sternopygus
 gunzip -c /mnt/research/efish/lab_data/assemblies/transcriptomes/gymnotiformes/sternopygus/sterno_trinity_0.1.fa.gz > Sternopygus_macrurus_trinity.fa
 
+# Electrophorus
+cp /mnt/research/efish/lab_data/assemblies/transcriptomes/gymnotiformes/electrophorus/Genome-based-assembly/Ee_soap_1.4.CDS.fa Electrophorus_electricus.CDS.fa
+cp /mnt/research/efish/lab_data/assemblies/transcriptomes/gymnotiformes/electrophorus/Genome-based-assembly/Ee_soap_1.4.pro.fa Electrophorus_electricus.proteome.fa
 cd ..
 
 
