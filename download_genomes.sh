@@ -87,11 +87,6 @@ if [[ $ALL == 'y' || $ALLGENOME == 'y' ]]; then
 	get_data Labridae Smelo
 fi
 
-if [[ $ALL = 'y' ]]; then
-	get_data Astroscopus Astar
-	
-fi
-
 if [[ $ELECTRO == 'y' || $TELEOST == 'y' || $FRESH == 'y' ]]; then
     get_data Mormyridae Pking
     get_data Gymnotiform Eelec
