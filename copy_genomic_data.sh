@@ -11,6 +11,7 @@ if [ ! -d data_downloads ]; then
 fi
 cd data_downloads
 
+
 ### Mormyrids ###
 if [[ ! -d Mormyridae ]]; then
 	mkdir Mormyridae
@@ -109,11 +110,19 @@ cp /mnt/research/efish/lab_data/assemblies/transcriptomes/torpeniformes/normaliz
 # Torpedo 
 cp /mnt/research/efish/lab_data/assemblies/transcriptomes/torpeniformes/normalized_assemblies/torpedo_trinity_normalized/Trinity.fasta Torpedo_trinity.fa
 
+cd ..
 
 
+### Pfam database for transdecoder ###
 
-
-
+ if [ ! -f Protein_DBs/Pfam-A.hmm ]; then
+	if [ ! -d Protein_DBs ]; then
+		mkdir Protein_DBs
+	fi
+	cd Protein_DBs
+	sbatch ~/scripts/slurm/get_Pfam.sb
+	cd ..
+fi
 
 
 
