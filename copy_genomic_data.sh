@@ -120,7 +120,7 @@ cd ..
 		mkdir Protein_DBs
 	fi
 	cd Protein_DBs
-	sbatch ~/scripts/slurm/get_Pfam.sb
+	sbatch ~/GitRepos/data_download/data_download_scripts/get_Pfam.sb
 	cd ..
 fi
 
