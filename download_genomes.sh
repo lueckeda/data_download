@@ -85,6 +85,7 @@ if [[ $ALL == 'y' || $ALLGENOME == 'y' ]]; then
     get_data Holocephali Cmili
     get_data Amniota Hsapi
 	get_data Labridae Smelo
+	~/GitRepos/data_download/copy_genomic_data.sh
 fi
 
 if [[ $ELECTRO == 'y' || $TELEOST == 'y' || $FRESH == 'y' ]]; then
