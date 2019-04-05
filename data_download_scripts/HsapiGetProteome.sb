@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.abinitio.fa.gz
+gunzip *.gz

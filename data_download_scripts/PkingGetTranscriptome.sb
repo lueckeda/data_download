@@ -12,3 +12,4 @@
 ########## Command Lines to Run ##########
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/paramormyrops_kingsleyae/cdna/Paramormyrops_kingsleyae.PKINGS_0.1.cdna.all.fa.gz
+gunzip *.gz

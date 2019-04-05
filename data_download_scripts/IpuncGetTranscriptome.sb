@@ -12,3 +12,4 @@
 ########## Command Lines to Run ##########
 
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/660/625/GCF_001660625.1_IpCoco_1.2/GCF_001660625.1_IpCoco_1.2_rna.fna.gz
+gunzip *.gz

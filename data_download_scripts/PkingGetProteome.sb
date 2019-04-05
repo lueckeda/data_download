@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/paramormyrops_kingsleyae/pep/Paramormyrops_kingsleyae.PKINGS_0.1.pep.all.fa.gz
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/paramormyrops_kingsleyae/pep/Paramormyrops_kingsleyae.PKINGS_0.1.pep.abinitio.fa.gz
+gunzip *.gz

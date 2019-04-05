@@ -12,3 +12,4 @@
 ########## Command Lines to Run ##########
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
+gunzip *.gz

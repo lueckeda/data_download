@@ -12,3 +12,4 @@
 ########## Command Lines to Run ##########
 
 wget -nc https://efishgenomics.integrativebiology.msu.edu/downloads/Transcriptome-Ee/Trinity8tissues06162012.fasta.gz
+gunzip *.gz

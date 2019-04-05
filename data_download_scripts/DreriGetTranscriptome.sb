@@ -12,3 +12,4 @@
 ########## Command Lines to Run ##########
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/danio_rerio/cdna/Danio_rerio.GRCz11.cdna.all.fa.gz
+gunzip *.gz

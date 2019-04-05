@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/paramormyrops_kingsleyae/dna/Paramormyrops_kingsleyae.PKINGS_0.1.dna.toplevel.fa.gz
 wget -nc ftp://ftp.ensembl.org/pub/release-94/gff3/paramormyrops_kingsleyae/Paramormyrops_kingsleyae.PKINGS_0.1.94.gff3.gz
+gunzip *.gz

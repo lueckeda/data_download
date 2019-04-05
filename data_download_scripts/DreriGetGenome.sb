@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/danio_rerio/dna/Danio_rerio.GRCz11.dna.primary_assembly.fa.gz
 wget -nc ftp://ftp.ensembl.org/pub/release-94/gff3/danio_rerio/Danio_rerio.GRCz11.94.gff3.gz
+gunzip *.gz

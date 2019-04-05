@@ -12,3 +12,4 @@
 ########## Command Lines to Run ##########
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/lepisosteus_oculatus/cdna/Lepisosteus_oculatus.LepOcu1.cdna.all.fa.gz
+gunzip *.gz

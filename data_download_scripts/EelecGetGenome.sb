@@ -13,3 +13,4 @@
 
 wget -nc https://efishgenomics.integrativebiology.msu.edu/downloads/Genome-Ee/SOAPdenovo-genome.fa.gz
 wget -nc https://efishgenomics.integrativebiology.msu.edu/downloads/Genome-Ee/Ee_soap_1.4.gff3.gz
+gunzip *.gz

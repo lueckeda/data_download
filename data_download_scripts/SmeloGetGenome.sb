@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/002/819/105/GCA_002819105.1_ASM281910v1/GCA_002819105.1_ASM281910v1_genomic.fna.gz
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/002/819/105/GCA_002819105.1_ASM281910v1/GCA_002819105.1_ASM281910v1_genomic.gff.gz
+gunzip *.gz

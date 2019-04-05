@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/lepisosteus_oculatus/pep/Lepisosteus_oculatus.LepOcu1.pep.all.fa.gz
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/lepisosteus_oculatus/pep/Lepisosteus_oculatus.LepOcu1.pep.abinitio.fa.gz
+gunzip *.gz

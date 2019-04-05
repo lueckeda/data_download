@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/660/625/GCF_001660625.1_IpCoco_1.2/GCF_001660625.1_IpCoco_1.2_genomic.fna.gz
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/660/625/GCF_001660625.1_IpCoco_1.2/GCF_001660625.1_IpCoco_1.2_genomic.gff.gz
+gunzip *.gz

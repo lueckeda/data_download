@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ensembl.org/pub/release-94/fasta/lepisosteus_oculatus/dna/Lepisosteus_oculatus.LepOcu1.dna.toplevel.fa.gz
 wget -nc ftp://ftp.ensembl.org/pub/release-94/gff3/lepisosteus_oculatus/Lepisosteus_oculatus.LepOcu1.94.gff3.gz
+gunzip *.gz

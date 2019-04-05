@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/165/045/GCF_000165045.1_Callorhinchus_milii-6.1.3/GCF_000165045.1_Callorhinchus_milii-6.1.3_rna.fna.gz
 
+gunzip *.gz

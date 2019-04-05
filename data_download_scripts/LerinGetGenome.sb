@@ -13,3 +13,4 @@
 
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/238/235/GCA_000238235.1_LER_WGS_1/GCA_000238235.1_LER_WGS_1_genomic.fna.gz
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/238/235/GCA_000238235.1_LER_WGS_1/GCA_000238235.1_LER_WGS_1_genomic.gff.gz
+gunzip *.gz
