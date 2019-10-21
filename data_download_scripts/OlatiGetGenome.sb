@@ -1,0 +1,17 @@
+#!/bin/bash --login
+########## Define Resources Needed with SBATCH Lines ##########
+ 
+#SBATCH --time=00:10:00             # limit of wall clock time - how long the job will run (same as -t)
+#SBATCH --ntasks=1                  # number of tasks - how many tasks (nodes) that you require (same as -n)
+#SBATCH --cpus-per-task=1           # number of CPUs (or cores) per task (same as -c)
+#SBATCH --mem=1G                    # memory required per node - amount of memory (in bytes)
+#SBATCH --job-name Olati_genome     # you can give your job a name for easier identification (same as -J)
+#SBATCH -o OlatiGetGenome.o
+#SBATCH -e OlatiGetGenome.e 
+ 
+########## Command Lines to Run ##########
+
+wget -nc ftp://ftp.ensembl.org/pub/release-98/fasta/oryzias_latipes/dna/Oryzias_latipes.ASM223467v1.dna.toplevel.fa.gz
+wget -nc ftp://ftp.ensembl.org/pub/release-98/gff3/oryzias_latipes/Oryzias_latipes.ASM223467v1.98.gff3.gz
+
+gunzip *.gz
