@@ -11,5 +11,5 @@
  
 ########## Command Lines to Run ##########
 
-wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/660/625/GCF_001660625.1_IpCoco_1.2/GCF_001660625.1_IpCoco_1.2_protein.faa.gz
+wget -nc ftp://ftp.ensembl.org/pub/release-98/fasta/ictalurus_punctatus/pep/Ictalurus_punctatus.IpCoco_1.2.pep.all.fa.gz
 gunzip *.gz
