@@ -11,6 +11,6 @@
  
 ########## Command Lines to Run ##########
 
-wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/165/045/GCF_000165045.1_Callorhinchus_milii-6.1.3/GCF_000165045.1_Callorhinchus_milii-6.1.3_protein.faa.gz
+wget -nc ftp://ftp.ensembl.org/pub/release-98/fasta/callorhinchus_milii/pep/Callorhinchus_milii.Callorhinchus_milii-6.1.3.pep.all.fa.gz
 
 gunzip *.gz
