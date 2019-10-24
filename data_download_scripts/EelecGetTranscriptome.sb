@@ -11,5 +11,6 @@
  
 ########## Command Lines to Run ##########
 
-wget -nc https://efishgenomics.integrativebiology.msu.edu/downloads/Transcriptome-Ee/Trinity8tissues06162012.fasta.gz
+wget -nc ftp://ftp.ensembl.org/pub/release-98/fasta/electrophorus_electricus/cdna/Electrophorus_electricus.Ee_SOAP_WITH_SSPACE.cdna.all.fa.gz
+
 gunzip *.gz

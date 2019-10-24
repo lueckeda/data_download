@@ -5,13 +5,12 @@
 #SBATCH --ntasks=1                  # number of tasks - how many tasks (nodes) that you require (same as -n)
 #SBATCH --cpus-per-task=1           # number of CPUs (or cores) per task (same as -c)
 #SBATCH --mem=1G                    # memory required per node - amount of memory (in bytes)
-#SBATCH --job-name Eelec_genome     # you can give your job a name for easier identification (same as -J)
-#SBATCH -o EelecGetGenome.o
-#SBATCH -e EelecGetGenome.e 
+#SBATCH --job-name Eelec_proteome     # you can give your job a name for easier identification (same as -J)
+#SBATCH -o EelecGetProteome.o
+#SBATCH -e EelecGetProteome.e 
  
 ########## Command Lines to Run ##########
 
-wget -nc ftp://ftp.ensembl.org/pub/release-98/fasta/electrophorus_electricus/dna/Electrophorus_electricus.Ee_SOAP_WITH_SSPACE.dna.toplevel.fa.gz
-wget -nc ftp://ftp.ensembl.org/pub/release-98/gff3/electrophorus_electricus/Electrophorus_electricus.Ee_SOAP_WITH_SSPACE.98.gff3.gz
+wget -nc ftp://ftp.ensembl.org/pub/release-98/fasta/electrophorus_electricus/pep/Electrophorus_electricus.Ee_SOAP_WITH_SSPACE.pep.all.fa.gz
 
 gunzip *.gz
